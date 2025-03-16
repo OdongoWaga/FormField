@@ -3,4 +3,8 @@
 // All Rights Reserved.
 
 
-import Foundation
+public enum ValidateState {
+    case empty
+    case invalid
+    case valid
+}
